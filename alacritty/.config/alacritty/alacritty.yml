@@ -1,0 +1,74 @@
+#     _    _                 _ _   _         
+#    / \  | | __ _  ___ _ __(_) |_| |_ _   _ 
+#   / _ \ | |/ _` |/ __| '__| | __| __| | | |
+#  / ___ \| | (_| | (__| |  | | |_| |_| |_| |
+# /_/   \_\_|\__,_|\___|_|  |_|\__|\__|\__, |
+#                                      |___/
+env:
+  TERM: xterm
+window:
+  dimensions:
+    columns: 140
+    lines: 45
+  padding:
+    x: 14
+    y: 14
+  #dynamic_padding: false
+  title: Alacritty
+  class:
+    instance: Alacritty
+    general: Alacritty
+scrolling:
+  history: 5000
+font:
+  normal:
+    family: Droid Sans Mono
+  bold:
+    family: Droid Sans Mono
+  #italic:
+    #family: monospace
+  #bold_italic:
+    #family: monospace
+  size: 13
+  #offset:
+  #  x: 0
+  #  y: 0
+  #glyph_offset:
+  #  x: 0
+  #  y: 0
+# Colors (Monokai Dark)
+colors:
+  primary:
+    background: '0x272822'
+    foreground: '0xF8F8F2'
+
+  # Normal colors
+  normal:
+   black:   '0x272822'
+   red:     '0xF92672'
+   green:   '0xA6E22E'
+   yellow:  '0xF4BF75'
+   blue:    '0x66D9EF'
+   magenta: '0xAE81FF'
+   cyan:    '0xA1EFE4'
+   white:   '0xF8F8F2'
+
+  # Bright colors
+  bright:
+   black:   '0x75715E'
+   red:     '0xF92672'
+   green:   '0xA6E22E'
+   yellow:  '0xF4BF75'
+   blue:    '0x66D9EF'
+   magenta: '0xAE81FF'
+   cyan:    '0xA1EFE4'
+   white:   '0xF9F8F5'
+shell:
+  program: /bin/zsh
+  args:
+    - --login
+#working_directory: None
+mouse:
+  url:
+    launcher:
+      program: firefox
